@@ -29,11 +29,11 @@ This project demonstrates an IoT application that fetches weather data, processe
    - MongoDB.
 
 ## Setup Instructions
-1. **Weather API Configuration**:
+1. Weather API Configuration:
    - Sign up at [OpenWeatherMap](https://openweathermap.org/) and get an API key.
    - Replace `your_api_key_here` in the code with your API key.
 
-2. **Run the Scripts**:
+2. Run the Scripts:
    - Start by fetching and publishing weather data:
      ```bash
      python fetch_weather.py
@@ -49,14 +49,7 @@ This project demonstrates an IoT application that fetches weather data, processe
      python spark_streaming.py
      ```
 
-3. **Visualize the Data**:
-   - Use tools like Grafana or a custom web app to display real-time data.
-
-## Future Enhancements
-- Integrate advanced analytics using machine learning models.
-- Add notifications for extreme weather conditions.
-- Scale the application with distributed systems like Kubernetes.
-
----
+3. Visualize the Data:
+   - Use tools like Grafana or a custom web app to display real-time da
 
 For questions or contributions, feel free to raise an issue or submit a pull request.
